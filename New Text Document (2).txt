@@ -1,0 +1,11 @@
+total = 0
+
+check = True
+while check == True:
+  value = int(input("Enter a number: "))
+  if value<0:
+    check = False
+    print("Number should be ABOVE 0")
+    break
+  print("Total is", value*2)
+

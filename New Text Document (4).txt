@@ -1,0 +1,6 @@
+total = 0
+while total < 20:
+  num = int(input("Enter a number: "))
+  total = total + num
+
+print("done")

@@ -1,0 +1,13 @@
+count = 0
+total = 0
+
+check = True
+while check == True:
+  value = int(input("Enter a number: "))
+  count = count + 1
+  total = total + value
+  more = input("More NumberS? (Y/N) ")
+  if more == "N":
+    check = False
+
+print("Total is", total/count)

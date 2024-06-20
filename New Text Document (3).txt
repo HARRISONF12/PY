@@ -1,0 +1,11 @@
+valid = False
+
+while (valid == False):
+  gamename = input("Enter Game Name Pls: ")
+  if ((len(gamename) > 0) and ((len(gamename) < 20):
+    gamesplayed = gamenamelen.upper
+    valid = True
+    print("Valid Game Name")
+  else:
+    print("invalid game name")
+  break
