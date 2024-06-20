@@ -1,0 +1,7 @@
+print (" . " *11)
+print (" i " *11)
+print ("#" *33)
+print ("=" *33)
+print ("#" *33)
+print ("=" *33)
+print ("#" *33)

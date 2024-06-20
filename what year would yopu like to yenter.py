@@ -1,0 +1,7 @@
+print ("What Year Would You Like To Enter?")
+year = input ()
+year = int (year)
+print ("what is your birth year?")
+born = input ()
+born = int (born)
+print ("in the year " , year , "you will be " , year-born , "years old")
